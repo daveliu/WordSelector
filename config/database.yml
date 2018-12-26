@@ -17,6 +17,5 @@ test:
   database: fuzzy_search_test
 
 production:
-  <<: *default
-  host: localhost
+  <<: *default  
   database: fuzzy_search_production
