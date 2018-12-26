@@ -1,0 +1,17 @@
+default: &default
+  adapter: postgresql
+  encoding: UTF8
+  pool: 5
+  timeout: 5000
+
+
+development:
+  <<: *default
+  host: localhost
+  database: fuzzy_search_development
+
+
+test:
+  <<: *default
+  host: localhost
+  database: fuzzy_search_test

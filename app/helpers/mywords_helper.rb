@@ -1,0 +1,2 @@
+module MywordsHelper
+end
