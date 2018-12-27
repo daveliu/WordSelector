@@ -68,8 +68,7 @@ export default class Search extends React.Component {
             onSelect={this.onSelect}
             onChange={this.onChange}
             renderItem={(item, isHighlighted) => (
-              <div className={`item  result ${isHighlighted ? 'item-highlighted' : ''}`}
-                 data-url={`/add_mywords/${item.id}.json`}
+              <div className={`item  result ${isHighlighted ? 'item-highlighted' : ''}`}                 
                  key={item.id}>
                 <div className="middle aligned content">
                   <div className="header title">{item.name}</div>
